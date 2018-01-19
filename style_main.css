@@ -1,0 +1,104 @@
+body{
+            /* background: linear-gradient(120deg, rgb(68, 33, 2), rgb(67, 2, 71)); */
+            /* background: linear-gradient(-90deg, rgb(232,40,66), rgb(40,232,206)); */
+            background-image: url("http://www.pickatheme.com/formspring-backgrounds/images/bg/3031.jpg");
+            margin: 0px;
+            padding: 0px;
+            font-family: cursive;
+            background-size: auto;
+
+            /* background-size: cover; */
+    }
+
+/* h1{
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+} */
+
+.welcomeimg{
+  width: 180px;
+  height: 180px;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+}
+.wrapper{
+  width: 60%;
+  height: 450px;
+  background: #fff;
+  margin: 0 auto;
+  /* opacity: 0.8; */
+  transform: translate(25%, 25%);
+  border: 2px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+.wrapper .info{
+  float: left;
+  width: 50%;
+  height: 450px;
+background-image: url("https://i.pinimg.com/736x/5b/7d/cb/5b7dcb7bbc80f81b52276ac5d398637c--fashion-drawings-fashion-sketches.jpg");
+background-size: cover;
+}
+/* .wrapper .info .welcome{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+} */
+.wrapper .registerform{
+  float: right;
+  width: 50%;
+  height: 450px;
+  box-sizing: border-box;
+}
+.wrapper .registerform .logo{
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.formbox{
+  width: 100%;
+  height: 450px;
+  /* box-sizing: border-box; */
+  background: transparent;
+  display: block;
+  text-align: center;
+}
+
+.formbox input[type=text]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formbox input[type=submit] {
+    width: 80%;
+    background-color: #210E04;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formbox input[type=submit]:hover {
+    background-color: #452419;
+}
+.formbox a{
+  text-decoration: none;
+  color: #596981;
+}
